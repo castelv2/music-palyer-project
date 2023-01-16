@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  background: #ecf0f3;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.component {
+  width: 430px;
+  height: 700px;
+  padding: 60px 35px 35px 35px;
+  border-radius: 40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+
+.music-cover {
+  border-radius: 10%;
+  width: 200px;
+}
+
+.play-button {
+  background: none;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  box-shadow: 15px 15px 30px #cbced1, -15px -15px 30px #ffffff;
+}
+
+.artist-name {
+  margin-top: -1em;
+  color: #4f4f4f;
+}
+
+.time {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: #828282;
+  font-size: smaller;
+}
+
+.timeline {
+  width: 80%;
+  background-color: #27ae60;
+}
+
+input[type="range"] {
+  background-color: #27ae60;
+}
+
+@media (max-width: 900px) {
+  .component {
+    width: 50%;
+  }
+}
