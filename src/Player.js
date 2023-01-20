@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import useSound from "use-sound";
 import mtaf from "./mtaf.mp3";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
@@ -9,7 +9,7 @@ import "./Player.css";
 
 export default function Player() {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [play, { pause, duration, sound }] = useSound(mtaf);
+  const [play, { pause }] = useSound(mtaf);
 
   const playingButton = () => {
     if (isPlaying) {
