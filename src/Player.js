@@ -27,6 +27,7 @@ export default function Player() {
       <img
         className="music-cover"
         src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/062/131/original/reinhart-julian-79-UsUCtTYA-unsplash.jpg?1673325802"
+        alt="song cover"
       />
       <div>
         <h3 className="title">Moth To A Flame</h3>
